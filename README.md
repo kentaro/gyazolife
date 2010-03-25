@@ -1,15 +1,15 @@
 # Gyazolife
 
-gyazoっぽい感じでフォトライフにスクリーンショットをアップロードします。
+gyazoっぽい感じではてなフォトライフにスクリーンショットをアップロードします。フォトライフのTwitter連携機能を有効にしておくと、Twitterの自動ポストも可能です。
 
-## 依存モジュール
+## DEPENDENCIES
 
 以下のモジュールをあらかじめCPANからインストールしてください。
 
 - WebService::Hatena::Fotolife
 - Config::Pit
 
-## 使い方
+## USAGE
 
 Config::PitをCPANらインストールした後、
 
@@ -20,10 +20,16 @@ Config::PitをCPANらインストールした後、
     ---
     "username": はてなID
     "password": パスワード
-    "fotolife":
+    "gyazolife":
       "folder": アップロード先フォルダ(なければ空でいいです)
 
 あとは、Gyazolife.appを/Application以下にコピーして適当に実行してください。
+
+## SEE ALSO
+
+- Gyazo: http://gyazo.com/ja
+- はてなフォトライフ: http://f.hatena.ne.jp/
+-- Twitter連携: http://f.hatena.ne.jp/guide/twitter
 
 ## COPYRIGHT AND LICENSE (The MIT License)
 

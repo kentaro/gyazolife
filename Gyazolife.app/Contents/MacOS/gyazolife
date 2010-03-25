@@ -16,7 +16,7 @@ if (!system "screencapture -i $filename") {
     my ($date)   =  $hatena->createEntry(
         title    => $ARGV[0],
         filename => $filename,
-        folder   => $config->{fotolife}{folder} || '',
+        folder   => $config->{gyazolife}{folder} || '',
     )            =~ /(\d{14})$/;
     my $url      =  sprintf "http://f.hatena.ne.jp/%s/%s", $config->{username}, $date;
 
