@@ -25,6 +25,8 @@ Config::PitをCPANらインストールした後、
 
 あとは、Gyazolife.appを/Application以下にコピーして適当に実行してください。
 
+アップロード先フォルダを変更したい場合は、上記手順と同様ppit用いて、設定ファイルを変更してください。
+
 ## SEE ALSO
 
 - Gyazo: http://gyazo.com/ja
