@@ -1,6 +1,6 @@
 # Gyazolife
 
-gyazoっぽい感じではてなフォトライフにスクリーンショットをアップロードします。フォトライフのTwitter連携機能を有効にしておくと、Twitterの自動ポストも可能です。
+gyazoっぽい感じではてなフォトライフにスクリーンショットをアップロードします。フォトライフのTwitter連携機能を有効にしておくと、Twitterへの自動ポストも可能です。
 
 ## DEPENDENCIES
 
@@ -29,7 +29,7 @@ Config::PitをCPANらインストールした後、
 
 - Gyazo: http://gyazo.com/ja
 - はてなフォトライフ: http://f.hatena.ne.jp/
--- Twitter連携: http://f.hatena.ne.jp/guide/twitter
+- Twitter連携: http://f.hatena.ne.jp/guide/twitter
 
 ## COPYRIGHT AND LICENSE (The MIT License)
 
