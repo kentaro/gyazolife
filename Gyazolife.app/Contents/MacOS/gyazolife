@@ -8,10 +8,10 @@ my $config   = pit_get('hatena.ne.jp');
 my $filename = '/tmp/gyazolife.png';
 unlink $filename if -e $filename;
 
-if (!system "screencapture -i $filename") {
+if (!system("screencapture -i $filename") && -e $filename) {
     my $hatena = WebService::Hatena::Fotolife->new;
-    $hatena->username($config->{username});
-    $hatena->password($config->{password});
+       $hatena->username($config->{username});
+       $hatena->password($config->{password});
 
     my ($date)   =  $hatena->createEntry(
         title    => $ARGV[0],
